@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#292E37"
+    tools:context=".activity_automatic">
+
+
+
+
+    <EditText
+        android:layout_width="257dp"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Auto Drive"
+        android:gravity="center"
+        android:textSize="37dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#E5BC9D2E"
+        android:focusableInTouchMode="false"
+        />
+
+    <Button
+        android:id="@+id/DistanceLeft"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/statslayout"
+        android:fontFamily="sans-serif-black"
+        android:rotation="0"
+        android:text="To Destination: "
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#BBFFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextCm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="30dp"
+        android:focusableInTouchMode="false"
+        android:textColor="#BBFFFFFF"
+        android:ems="10"
+        android:hint="Cm"
+        android:inputType="number"
+        android:textColorHint="#BBFFFFFF" />
+
+    <Button
+        android:id="@+id/Time"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/statslayout"
+        android:fontFamily="sans-serif-black"
+        android:rotation="0"
+        android:text="Time: "
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#BBFFFFFF"
+        android:textSize="20dp" />
+
+
+
+
+    <Button
+        android:id="@+id/Speed"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/statslayout"
+        android:fontFamily="sans-serif-black"
+        android:rotation="0"
+        android:text="Speed: "
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#BBFFFFFF"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/editTextSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="30dp"
+        android:focusableInTouchMode="false"
+        android:textColor="#BBFFFFFF"
+        android:ems="10"
+        android:hint="Cm/S"
+        android:inputType="number"
+        android:textColorHint="#BBFFFFFF" />
+
+
+
+
+
+
+    <ImageButton
+
+        android:id="@+id/toManual"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/Manual"
+        android:textAllCaps="false"
+        android:textColor="#BB070707"
+        android:textSize="25sp" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="450dp"
+        android:focusableInTouchMode="false"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/ica"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="441dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 32:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+
+    <EditText
+        android:id="@+id/ikea"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="441dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 112:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/chalmers"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="441dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 882:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/elgiganten"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="441dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 320:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/nordstan"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="441dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 52:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/lindholmen"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="441dp"
+        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 322:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/stockholm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="441dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"
+        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 892:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/newyork"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="441dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"
+        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 102:08"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/homedestination"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="441dp"
+        android:focusableInTouchMode="false"
+        android:textColor="#ECF400"
+        android:ems="10"
+        android:hint="Sec"
+        android:inputType="number"
+        android:text="  / 72:48"
+
+        android:textColorHint="#BBFFFFFF"
+        />
+
+    <Button
+        android:id="@+id/autoreahced"
+        android:layout_width="307dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/colorchange"
+        android:fontFamily="sans-serif-black"
+        android:rotation="0"
+        android:text="Destination Reached"
+        android:textAllCaps="false"
+        android:textColor="#BB070707"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="307dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/colorchange"
+        android:fontFamily="sans-serif-black"
+        android:rotation="0"
+        android:text="To Manual Mode"
+        android:textAllCaps="false"
+        android:textColor="#BB070707"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>
